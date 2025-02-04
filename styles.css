@@ -1,0 +1,48 @@
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	height: 50px;
+	width: 50px;
+}
+.postcard-header h1 {
+	margin: 0%;
+	width: 1000px;
+	font-family: "Sansita Swashed";
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0%;
+}
+.body-left,
+.body-right {
+	font-family: "Sansita Swashed";
+	font-size: x-large;
+}
+.input {
+	border: none;
+	border-bottom: gray;
+	padding: 10px;
+	font-weight: bold;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: gray;
+	padding: 20px;
+	border-radius: 7px;
+	font-family: "Sansita Swashed";
+}
+button:active {
+	background-color: darkgrey;
+	color: white;
+}
